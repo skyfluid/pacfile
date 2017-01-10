@@ -1,5 +1,5 @@
 function FindProxyForURL(url, host) {
-  var proxyDomains = ['mail.google.com', 'gmail.com', 'docs.google.com', 'dropbox.com', 'drive.google.com', 'slideshare.net'];
+  var proxyDomains = ['mail.google.com', 'gmail.com', 'docs.google.com', 'dropbox.com', 'drive.google.com', 'slideshare.net', 'www.evernote.com'];
   host = host.toLowerCase();
   for(var i = 0; i < proxyDomains.length; ++i) {
     if(dnsDomainIs(host, proxyDomains[i]))
